@@ -8,7 +8,9 @@
 </head>
 <body>
     <header>
-        <p lang="en"><span style="color:#2196F3">Web</span>Studio</p>
+        <a href="./index.html"><span style="color:#2196F3">Web</span>Studio</a>
+        <!-- перероблено на посилання, було як параграф 
+            <p lang="en"><span style="color:#2196F3">Web</span>Studio</p> -->
         <nav>
             <ul>
                 <li><a href="">Студия</a></li>
@@ -20,7 +22,6 @@
         <ul>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <!-- как сделать чёрный неподчеркнутый текст телефона? -->
         </ul>
     </header>
 
@@ -35,7 +36,6 @@
         <!-- особенности -->
         <section>
             <h2 hidden>Особенности</h2>
-            <!-- ??? "hidden" - правильно ли?? -->
 
             <ul>
                 <li>
@@ -76,17 +76,17 @@
         <ul>
             <li>
                 <ul>
-                    <li><a href=""><img width="270" height="260" src="./images/mainpage/main-comanda1-ID.jpg" alt="фото члена команды"></a></li>
-                    <!-- поскольку фио члена команды будет в тексте ниже фото, конкретные фио в описаниях фото не ставлю -->
+                    <!-- тут та нижче на фото членів команди прибрав посилання. було: 
+                        <li><a href=""><img width="270" height="260" src="./images/mainpage/main-comanda1-ID.jpg" alt="фото члена команды"></a></li> -->
+                    <li><img width="270" height="260" src="./images/mainpage/main-comanda1-ID.jpg" alt="фото члена команды"></li>
                     <li><h3>Игорь Демьяненко</h3>
-                    <p lang="en">Product Desig ner</p></li>
-                    <!-- ?? ошибка в макете (пробел в названии профессии) - запросить у дизайнера -->
+                    <p lang="en">Product Designer</p></li>
                 </ul>
             </li>
             <li>
                 <ul>
-                    <li><a href=""><img width="270" height="260" src="./images/mainpage/main-comanda2-OR.jpg" 
-                        alt="фото члена команды"></a></li>
+                    <li><img width="270" height="260" src="./images/mainpage/main-comanda2-OR.jpg" 
+                        alt="фото члена команды"></li>
                     <li><h3>Ольга Репина</h3>
                     <p lang="en">Frontend Developer</p>
                     </li>
@@ -94,8 +94,8 @@
             </li>
             <li>
                 <ul>
-                    <li><a href=""><img width="270" height="260" src="./images/mainpage/main-comanda3-NT.jpg" 
-                        alt="фото члена команды"></a></li>
+                    <li><img width="270" height="260" src="./images/mainpage/main-comanda3-NT.jpg" 
+                        alt="фото члена команды"></li>
                     <li><h3>Николай Тарасов</h3>
                     <p lang="en">Marketing</p>
                     </li>
@@ -103,8 +103,8 @@
             </li>
             <li>
                 <ul>
-                    <li><a href=""><img width="270" height="260" src="./images/mainpage/main-comanda4-ME.jpg" 
-                        alt="фото члена команды"></a></li>
+                    <li><img width="270" height="260" src="./images/mainpage/main-comanda4-ME.jpg" 
+                        alt="фото члена команды"></li>
                     <li><h3>Михаил Ермаков</h3>
                     <p lang="en">UI Designer</p>
                     </li>
@@ -117,10 +117,15 @@
 
     <!-- футер -->
     <footer>
-        <p lang="en"><span style="color:#2196F3">Web</span>Studio</p>
+        <a href="./index.html"><span style="color:#2196F3">Web</span>Studio</a>
+        <!-- слово Studio span-ом білим поки що не роблю, оскільки на сторінці html з білим фоном його не буде видно -->
+        <!-- WebStudio перероблено на посилання було як параграф:
+             <p lang="en"><span style="color:#2196F3">Web</span>Studio</p> -->
         <address>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
+                <!-- адресу винесено за межі списку як параграф було як текст у списку:
+                    <li>г. Киев, пр-т Леси Украинки, 26</li> -->
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
